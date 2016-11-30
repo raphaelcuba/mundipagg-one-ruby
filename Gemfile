@@ -1,12 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'rest-client'
-gem 'nori'
-gem 'gyoku'
-gem 'nokogiri'
-gem 'ffi'
+gemspec
 
-group :test do
-  gem 'rake'
+group :test, :development do
   gem 'rspec'
 end
