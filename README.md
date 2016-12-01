@@ -73,3 +73,10 @@ Did you like our SDK? We're always looking for good coders!
 Send us an email (vagas@mundipagg.com) or take a look at our [jobs](https://github.com/mundipagg/vagas) page and come meet us! :smile:
 
 ![We want you](https://raw.githubusercontent.com/mundipagg/vagas/master/we_want_you.jpg)
+
+
+## Building docker image to development
+```
+docker build -t mundipagg-one-ruby:latest .
+docker run -ti mundipagg-one-ruby:latest bash
+```
